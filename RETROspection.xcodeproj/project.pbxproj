@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033436B1211A14CC0002179A /* imageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033436B0211A14CC0002179A /* imageUtilities.swift */; };
+		03A741782119F03900224BF5 /* polaroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A741772119F03900224BF5 /* polaroidViewController.swift */; };
 		356A4F3C2114B8AE0054C5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F3B2114B8AE0054C5A3 /* AppDelegate.swift */; };
-		356A4F3E2114B8AE0054C5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F3D2114B8AE0054C5A3 /* ViewController.swift */; };
+		356A4F3E2114B8AE0054C5A3 /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F3D2114B8AE0054C5A3 /* HomeScreenController.swift */; };
 		356A4F412114B8AE0054C5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A4F3F2114B8AE0054C5A3 /* Main.storyboard */; };
 		356A4F442114B8AE0054C5A3 /* RETROspection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F422114B8AE0054C5A3 /* RETROspection.xcdatamodeld */; };
 		356A4F462114B8AE0054C5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356A4F452114B8AE0054C5A3 /* Assets.xcassets */; };
 		356A4F492114B8AE0054C5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A4F472114B8AE0054C5A3 /* LaunchScreen.storyboard */; };
 		356A4F542114B8AE0054C5A3 /* RETROspectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F532114B8AE0054C5A3 /* RETROspectionTests.swift */; };
 		356A4F5F2114B8AE0054C5A3 /* RETROspectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F5E2114B8AE0054C5A3 /* RETROspectionUITests.swift */; };
-		356A4F6F2114DFC10054C5A3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F6E2114DFC10054C5A3 /* CollectionViewController.swift */; };
+		356A4F6F2114DFC10054C5A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F6E2114DFC10054C5A3 /* TableViewController.swift */; };
 		356A4F712114DFEF0054C5A3 /* addPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F702114DFEF0054C5A3 /* addPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033436B0211A14CC0002179A /* imageUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageUtilities.swift; sourceTree = "<group>"; };
+		03A741772119F03900224BF5 /* polaroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polaroidViewController.swift; sourceTree = "<group>"; };
 		356A4F382114B8AE0054C5A3 /* RETROspection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETROspection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356A4F3B2114B8AE0054C5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		356A4F3D2114B8AE0054C5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		356A4F3D2114B8AE0054C5A3 /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
 		356A4F402114B8AE0054C5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		356A4F432114B8AE0054C5A3 /* RETROspection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RETROspection.xcdatamodel; sourceTree = "<group>"; };
 		356A4F452114B8AE0054C5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +55,7 @@
 		356A4F5A2114B8AE0054C5A3 /* RETROspectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETROspectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356A4F5E2114B8AE0054C5A3 /* RETROspectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETROspectionUITests.swift; sourceTree = "<group>"; };
 		356A4F602114B8AE0054C5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		356A4F6E2114DFC10054C5A3 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		356A4F6E2114DFC10054C5A3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		356A4F702114DFEF0054C5A3 /* addPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,10 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				356A4F3B2114B8AE0054C5A3 /* AppDelegate.swift */,
-				356A4F3D2114B8AE0054C5A3 /* ViewController.swift */,
+				033436B0211A14CC0002179A /* imageUtilities.swift */,
+				356A4F3D2114B8AE0054C5A3 /* HomeScreenController.swift */,
+				03A741772119F03900224BF5 /* polaroidViewController.swift */,
 				356A4F3F2114B8AE0054C5A3 /* Main.storyboard */,
 				356A4F702114DFEF0054C5A3 /* addPhotoViewController.swift */,
-				356A4F6E2114DFC10054C5A3 /* CollectionViewController.swift */,
+				356A4F6E2114DFC10054C5A3 /* TableViewController.swift */,
 				356A4F452114B8AE0054C5A3 /* Assets.xcassets */,
 				356A4F472114B8AE0054C5A3 /* LaunchScreen.storyboard */,
 				356A4F4A2114B8AE0054C5A3 /* Info.plist */,
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A741782119F03900224BF5 /* polaroidViewController.swift in Sources */,
+				033436B1211A14CC0002179A /* imageUtilities.swift in Sources */,
 				356A4F712114DFEF0054C5A3 /* addPhotoViewController.swift in Sources */,
-				356A4F6F2114DFC10054C5A3 /* CollectionViewController.swift in Sources */,
-				356A4F3E2114B8AE0054C5A3 /* ViewController.swift in Sources */,
+				356A4F6F2114DFC10054C5A3 /* TableViewController.swift in Sources */,
+				356A4F3E2114B8AE0054C5A3 /* HomeScreenController.swift in Sources */,
 				356A4F3C2114B8AE0054C5A3 /* AppDelegate.swift in Sources */,
 				356A4F442114B8AE0054C5A3 /* RETROspection.xcdatamodeld in Sources */,
 			);
@@ -443,13 +451,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 785YAPGC8M;
+				DEVELOPMENT_TEAM = 8LNUZ665DT;
 				INFOPLIST_FILE = RETROspection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AllySiva.RETROspection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Josie.RETROspection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,13 +469,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 785YAPGC8M;
+				DEVELOPMENT_TEAM = 8LNUZ665DT;
 				INFOPLIST_FILE = RETROspection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AllySiva.RETROspection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Josie.RETROspection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

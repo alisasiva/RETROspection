@@ -11,6 +11,7 @@ import UIKit
 class addPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate{
 
         var imagePicker = UIImagePickerController()
+    
         @IBOutlet weak var imageView: UIImageView!
         @IBOutlet weak var titleInput: UITextField!
         @IBOutlet weak var captionInput: UITextField!
@@ -45,7 +46,10 @@ class addPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
             //update photo w/ the photo the usre selected
             if let selectedPhoto = info[UIImagePickerControllerOriginalImage] as? UIImage {
-                imageView.image = selectedPhoto
+//                imageView.image = selectedPhoto
+                let fixedImage =
+                imageUtilities.fixImageOrientation(imageSource: selectedPhoto)
+                imageView.image = fixedImage
             }
             //go to our viewcontroller so the user can see the updater photo
             dismiss(animated: true, completion: nil)
@@ -65,11 +69,7 @@ class addPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
                     photoToSave.imageData = userImageData
                 }
             }
-            
             (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
-
-            //go back to table view
-            //navigationController?.popViewController(animated: true)
         }
     }
 

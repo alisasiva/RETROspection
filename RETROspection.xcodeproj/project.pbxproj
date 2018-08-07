@@ -15,6 +15,8 @@
 		356A4F492114B8AE0054C5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A4F472114B8AE0054C5A3 /* LaunchScreen.storyboard */; };
 		356A4F542114B8AE0054C5A3 /* RETROspectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F532114B8AE0054C5A3 /* RETROspectionTests.swift */; };
 		356A4F5F2114B8AE0054C5A3 /* RETROspectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F5E2114B8AE0054C5A3 /* RETROspectionUITests.swift */; };
+		356A4F6F2114DFC10054C5A3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F6E2114DFC10054C5A3 /* CollectionViewController.swift */; };
+		356A4F712114DFEF0054C5A3 /* addPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A4F702114DFEF0054C5A3 /* addPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		356A4F5A2114B8AE0054C5A3 /* RETROspectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETROspectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356A4F5E2114B8AE0054C5A3 /* RETROspectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETROspectionUITests.swift; sourceTree = "<group>"; };
 		356A4F602114B8AE0054C5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356A4F6E2114DFC10054C5A3 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		356A4F702114DFEF0054C5A3 /* addPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				356A4F3B2114B8AE0054C5A3 /* AppDelegate.swift */,
 				356A4F3D2114B8AE0054C5A3 /* ViewController.swift */,
 				356A4F3F2114B8AE0054C5A3 /* Main.storyboard */,
+				356A4F702114DFEF0054C5A3 /* addPhotoViewController.swift */,
+				356A4F6E2114DFC10054C5A3 /* CollectionViewController.swift */,
 				356A4F452114B8AE0054C5A3 /* Assets.xcassets */,
 				356A4F472114B8AE0054C5A3 /* LaunchScreen.storyboard */,
 				356A4F4A2114B8AE0054C5A3 /* Info.plist */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356A4F712114DFEF0054C5A3 /* addPhotoViewController.swift in Sources */,
+				356A4F6F2114DFC10054C5A3 /* CollectionViewController.swift in Sources */,
 				356A4F3E2114B8AE0054C5A3 /* ViewController.swift in Sources */,
 				356A4F3C2114B8AE0054C5A3 /* AppDelegate.swift in Sources */,
 				356A4F442114B8AE0054C5A3 /* RETROspection.xcdatamodeld in Sources */,
